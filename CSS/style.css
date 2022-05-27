@@ -525,6 +525,7 @@ section.home .slider .dotsbox {
 	transform: translate(-50%);
 	bottom: 20px;
 	cursor: pointer;
+    width: 230px;
 }
 
 section.home .slider .dotsbox .dot {
