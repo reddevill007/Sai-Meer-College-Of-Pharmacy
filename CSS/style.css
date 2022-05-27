@@ -41,37 +41,37 @@ html {
     color: var(--green);
 }
 
-.btn{
+.btn {
     display: inline-block;
     margin-top: 10px;
     padding: 6px;
     padding-left: 10px;
-    border:var(--border);
+    border: var(--border);
     border-radius: 6px;
     box-shadow: var(--box-shadow);
-    color:var(--green);
+    color: var(--green);
     cursor: pointer;
     font-size: 18px;
     background: #fff;
     transition: all .3s ease-in-out;
 }
 
-.btn span{
+.btn span {
     padding: 7px 10px;
     border-radius: 6px;
     background: var(--green);
-    color:#fff;
+    color: #fff;
     margin-left: 6px;
 }
 
-.btn:hover{
+.btn:hover {
     background: var(--green);
-    color:#fff;
+    color: #fff;
 }
 
-.btn:hover span{
+.btn:hover span {
     color: var(--green);
-    background:#fff;
+    background: #fff;
     margin-left: 13px;
 }
 
@@ -585,4 +585,18 @@ section.tour .embed h3 {
     font-size: 26px;
     text-align: center;
     margin-bottom: 10px;
+}
+
+/*  <=========== Prtners Section CSS ===========>  */
+section.partners {
+    height: 40vh;
+    width: 100%;
+    background: red;
+}
+
+section.partners .container {
+    width: 90%;
+    height: 100%;
+    background: green;
+    margin-inline: auto;
 }
